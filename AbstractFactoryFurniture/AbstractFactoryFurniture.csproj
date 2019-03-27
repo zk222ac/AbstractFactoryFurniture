@@ -42,11 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\IFurnitureAbstractFactory.cs" />
+    <Compile Include="AbstractProduct\IAbstractChairProductA.cs" />
+    <Compile Include="AbstractProduct\IAbstractSofaProductB.cs" />
+    <Compile Include="Client\Clients.cs" />
+    <Compile Include="ConcreteFactory\ModernConcreteFactory1.cs" />
+    <Compile Include="ConcreteFactory\VictoriaConcreteFactory2.cs" />
+    <Compile Include="ConcreteProduct\ConcreteProductA1Chair.cs" />
+    <Compile Include="ConcreteProduct\ConcreteProductA2Chair.cs" />
+    <Compile Include="ConcreteProduct\ConcreteProductB1Sofa.cs" />
+    <Compile Include="ConcreteProduct\ConcreteProductB2Sofa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
